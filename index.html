@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gear Up</title>
+
+    <!-- Font Awesome CDN -->
+    <script src="https://kit.fontawesome.com/dfbc8c4b3d.js" crossorigin="anonymous"></script>
+    <!-- Bootstrap CSS CDN -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css">
+
+    <style>
+        .faq-body{
+            background-color: rgb(192, 253, 202);
+        }
+        .gear-footer{
+            background-color: rgb(29, 28, 28);
+        }
+
+    </style>
+
+</head>
+
+<body class="bg-dark">
+    <!-- Navigation Bar -->
+    <header>
+        <nav class="navbar navbar-expand-lg bg-danger fixed-top mb-5 py-3">
+            <div class="container">
+              <a class="navbar-brand fw-bolder text-white" href="#">Gear Up</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 fw-semibold">
+                        <li class="nav-item">
+                            <a class="nav-link active text-white" aria-current="page" href="#gear-slider">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="#gear-categories">Categories</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="#subs">Subscribe</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="#faq">FAQ</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="#community">Community</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-light" type="submit">Search</button>
+                    </form>
+              </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Image Slider -->
+        <section class="container pt-5 mt-5 mb-5" id="gear-slider">
+            <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4" aria-label="Slide 5"></button>
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="5" aria-label="Slide 6"></button>
+                </div>
+                <div class="carousel-inner rounded-5">
+                    <div class="carousel-item active">
+                        <img src="./images/slider banners/1.png" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block mb-5 pb-5">
+                            <h1 class="fw-bold text-white">Avail 20% discount on all categories</h1>
+                            <p class="fw-normal text-white mb-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam eligendi ipsa optio totam fugit sed quis doloremque temporibus, sapiente iure.</p>
+                            <button class="btn btn-danger px-4 py-2 mb-5">Get Details</button>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./images/slider banners/2.png" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block mb-5 pb-5">
+                            <h1 class="fw-bold text-white">Avail 20% discount on all categories</h1>
+                            <p class="fw-normal text-white mb-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam eligendi ipsa optio totam fugit sed quis doloremque temporibus, sapiente iure.</p>
+                            <button class="btn btn-danger px-4 py-2 mb-5">Get Details</button>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./images/slider banners/3.png" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block mb-5 pb-5">
+                            <h1 class="fw-bold text-white">Avail 20% discount on all categories</h1>
+                            <p class="fw-normal text-white mb-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam eligendi ipsa optio totam fugit sed quis doloremque temporibus, sapiente iure.</p>
+                            <button class="btn btn-danger px-4 py-2 mb-5">Get Details</button>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./images/slider banners/4.png" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block mb-5 pb-5">
+                            <h1 class="fw-bold text-white">Avail 20% discount on all categories</h1>
+                            <p class="fw-normal text-white mb-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam eligendi ipsa optio totam fugit sed quis doloremque temporibus, sapiente iure.</p>
+                            <button class="btn btn-danger px-4 py-2 mb-5">Get Details</button>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./images/slider banners/5.png" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block mb-5 pb-5">
+                            <h1 class="fw-bold text-white">Avail 20% discount on all categories</h1>
+                            <p class="fw-normal text-white mb-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam eligendi ipsa optio totam fugit sed quis doloremque temporibus, sapiente iure.</p>
+                            <button class="btn btn-danger px-4 py-2 mb-5">Get Details</button>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./images/slider banners/6.png" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block mb-5 pb-5">
+                            <h1 class="fw-bold text-white">Avail 20% discount on all categories</h1>
+                            <p class="fw-normal text-white mb-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam eligendi ipsa optio totam fugit sed quis doloremque temporibus, sapiente iure.</p>
+                            <button class="btn btn-danger px-4 py-2 mb-5">Get Details</button>
+                        </div>
+                    </div>    
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </section>
+
+        <!-- Updates -->
+        <section class="container mb-5">
+            <p>
+                <a class="btn btn-outline-info w-100" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+                    Click for New Updates
+                </a>
+            </p>
+            <div class="collapse" id="collapseExample">
+                <div class="card card-body bg-primary text-white">
+                    New collections of bags, t-shirts, and watches are coming hot on 15th November, 2022. Stay tuned!!!
+                </div>
+              </div>
+        </section>
+
+        <!-- Categories -->
+        <section class="mb-5" id="gear-categories">
+            <div class="container text-center">
+                <div class="row g-2">
+                  <div class="col-lg-8">
+                    <div class="p-3 bg-success rounded-4">
+                        <a href="" class="text-decoration-none d-flex align-items-center justify-content-center">
+                            <img class="img-fluid" src="./images/categories/watch.png" alt="">
+                            <h1 class="fw-bold text-warning">Watches</h1>
+                        </a>
+                    </div>
+                  </div>
+                  <div class="col-lg-4">
+                    <div class="p-3 bg-warning rounded-4">
+                        <a href="" class="text-decoration-none d-flex align-items-center justify-content-center">
+                            <img class="img-fluid" src="./images/categories/shoes.png" alt="">
+                            <h1 class="fw-bold text-danger">Shoes</h1>
+                        </a>
+                    </div>
+                  </div>
+                  <div class="col-lg-7">
+                    <div class="p-3 bg-danger rounded-4">
+                        <a href="" class="text-decoration-none d-flex align-items-center justify-content-center">
+                            <img class="img-fluid" src="./images/categories/bag.png" alt="">
+                            <h1 class="fw-bold text-light">Bags</h1>
+                        </a>
+                    </div>
+                  </div>
+                  <div class="col-lg-5">
+                    <div class="p-3 bg-primary rounded-4 pb-4 pt-4">
+                        <a href="" class="text-decoration-none d-flex align-items-center justify-content-center">
+                            <img class="img-fluid" src="./images/categories/jacket.png" alt="">
+                            <h1 class="fw-bold text-warning">Jackets</h1>
+                        </a>
+                    </div>
+                  </div>
+                  <div class="col-lg-4">
+                    <div class="p-3 bg-info rounded-4">
+                        <a href="" class="text-decoration-none d-flex align-items-center justify-content-center">
+                            <img class="img-fluid" src="./images/categories/tshirt.png" alt="">
+                            <h1 class="fw-bold text-dark">T-Shirts</h1>
+                        </a>
+                    </div>
+                  </div>
+                  <div class="col-lg-8">
+                    <div class="p-3 bg-light rounded-4">
+                        <a href="" class="text-decoration-none d-flex align-items-center justify-content-center">
+                            <img class="img-fluid" src="./images/categories/camera.png" alt="">
+                            <h1 class="fw-bold text-danger">Accessories</h1>
+                        </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+        </section>
+
+        <!-- Community Joining -->
+        <section class="container mb-5" id="community">
+            <div class="row bg-warning rounded-4 mx-auto pt-4 pb-4 d-flex flex-sm-column flex-lg-row flex-md-row">
+                <div class="col-lg-6 col-md-6 col-sm-12">
+                    <img class="img-fluid ps-lg-5 ps-md-5 ps-sm-1 py-3 rounded-3 mx-auto  d-block" src="./images/gear.png" alt="">
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-12 my-auto d-block mx-auto ps-lg-0 ps-md-0 ps-sm-5">
+                    <h1 class="fw-bold">
+                        Featured products <br> at one place
+                    </h1>
+                    <p class="fw-normal">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. <br> Quaerat sunt blanditiis est fugit aut illo nisi eius eaque <br>
+                        reiciendis corporis.
+                    </p>
+                    <button class="btn btn-danger px-4 py-2">
+                        Join Now
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <!-- FAQ -->
+        <section class="container mb-5" id="faq">
+            <div class="accordion" id="accordionPanelsStayOpenExample">
+                <div class="accordion-item faq-body border-0 mb-3">
+                  <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+                    <button class="accordion-button bg-success text-white" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+                        What is the delivery process?
+                    </button>
+                  </h2>
+                  <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne">
+                    <div class="accordion-body">
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Culpa, hic tenetur sint nemo tempora officia similique laboriosam. Quam eos, recusandae dolorem laboriosam at aliquid animi. Molestiae harum beatae praesentium sed.
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item faq-body border-0 mb-2">
+                  <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+                    <button class="accordion-button collapsed bg-success text-white" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+                        Is there any refund policies?
+                    </button>
+                  </h2>
+                  <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo">
+                    <div class="accordion-body">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, animi! Voluptates minus ut nesciunt reiciendis vero cumque labore id commodi error accusantium repellat perspiciatis asperiores, doloremque cupiditate est facilis aliquid.
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item faq-body border-0 mb-2">
+                    <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+                      <button class="accordion-button collapsed bg-success text-white" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+                        How much time will be needed to deliver the product?
+                      </button>
+                    </h2>
+                    <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
+                      <div class="accordion-body">
+                          Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, animi! Voluptates minus ut nesciunt reiciendis vero cumque labore id commodi error accusantium repellat perspiciatis asperiores, doloremque cupiditate est facilis aliquid.
+                      </div>
+                    </div>
+                  </div>
+                  <div class="accordion-item faq-body border-0">
+                    <h2 class="accordion-header" id="panelsStayOpen-headingFour">
+                      <button class="accordion-button collapsed bg-success text-white" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseFour" aria-expanded="false" aria-controls="panelsStayOpen-collapseFour">
+                        How do I sign up for the membership card?
+                      </button>
+                    </h2>
+                    <div id="panelsStayOpen-collapseFour" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingFour">
+                      <div class="accordion-body">
+                          Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, animi! Voluptates minus ut nesciunt reiciendis vero cumque labore id commodi error accusantium repellat perspiciatis asperiores, doloremque cupiditate est facilis aliquid.
+                      </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="gear-footer">
+        <div class="container">
+            <div class="row p-5 gx-5">
+                <div class="col-lg-3 cold-md-6 col-sm-12 text-white">
+                    <h2 class="fw-bolder pb-5">Contact Information</h2>
+                    <p>
+                        <i class="fa-solid fa-location-dot"></i> 
+                        Address: House#X/Y, Block-Z, Uttara,Sector-7, Dhaka-1230
+                    </p>
+                    <p>
+                        <i class="fa-solid fa-envelope"></i>
+                        Email ID: gearup@gmail.com
+                    </p>
+                    <p>
+                        <i class="fa-solid fa-phone"></i>
+                        Hotline: +88(0) 1624254544
+                    </p>
+                </div>
+                <div class="col-lg-3 cold-md-6 col-sm-12 text-white" id="subs">
+                    <h2 class="fw-bolder pb-5">Subscribe</h2>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iste, eveniet.</p>
+                    <form>
+                        <div class="mb-3">
+                          <label for="exampleInputEmail1" class="form-label">Email address</label>
+                          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                        </div>
+
+                        <button type="submit" class="btn btn-danger w-100">Submit</button>
+                      </form>
+                </div>
+                <div class="col-lg-3 cold-md-6 col-sm-12 text-white">
+                    <h2 class="fw-bolder pb-5">Download App</h2>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iste, eveniet.</p>
+                    <img class="w-75 ms-3" src="./images/googleplay.png" alt="">
+                </div>
+                <div class="col-lg-3 cold-md-6 col-sm-12 text-white">
+                    <h2 class="fw-bolder pb-5">Socials</h2>
+                    <a class="text-decoration-none text-white fs-2 px-2" href="">
+                        <i class="fa-brands fa-facebook-square"></i>
+                    </a>
+                    <a class="text-decoration-none text-white fs-2 px-2" href="">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                    <a class="text-decoration-none text-white fs-2 px-2" href="">
+                        <i class="fa-brands fa-twitter-square"></i>
+                    </a>
+                    <a class="text-decoration-none text-white fs-2 px-2" href="">
+                        <i class="fa-brands fa-youtube"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <section class="bg-dark text-white">
+            <div class="container pt-5 pb-3">
+                <p class="text-center">Copyright © 2022</p>
+            </div>
+        </section>
+    </footer>
+
+
+
+
+
+
+
+
+    <!-- Bootstrap JS CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js
+    "></script>
+</body>
+</html>
